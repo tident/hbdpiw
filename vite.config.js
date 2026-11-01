@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/hbdpiw/', // Sesuaikan dengan nama repository di GitHub
+  base: '/', // Ubah ke '/' agar berkas dibaca dari root Vercel
 })
